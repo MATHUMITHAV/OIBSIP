@@ -1,0 +1,296 @@
+<?php 
+$dbconnect=mysqli_connect('localhost','id13963179_mathushruthi','n9qZ&c_(DZ6FBe?o','id13963179_submit');
+ if($dbconnect->connect_error){
+     echo $dbconnect->connect_error;
+     die("Sorry db failed");}
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<title>HASHTAG</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	body {
+		font-family: "Lato", sans-serif
+	}
+
+	.mySlides {
+		display: none
+	}
+
+	
+</style>
+
+<body>
+
+	<!-- Navbar -->
+	<div class="w3-top">
+		<div class="w3-bar w3-black w3-card">
+			<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()"
+			 title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="https://www.instagram.com/hashtagofficial.in/?utm_medium=copy_link" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PORTFOLIO</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICES</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="https://www.instagram.com/hashtagofficial.in/?utm_medium=copy_link" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PORTFOLIO</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICES</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT US</a>
+ 
+  
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <a href="https://www.instagram.com/hashtagofficial.in/?utm_medium=copy_link"><img src="logo1.jpg" style="width:100%"></a>
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      
+    </div>
+  </div>
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <a href="https://www.instagram.com/p/COiM5HCBUrE/?utm_medium=copy_link"><img src="1.jpeg" style="width:100%"></a>
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Marriage Photography</h3>
+      <p><b>"It is a profound honor as a photographer to witness two people falling in love."</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <a href="https://www.instagram.com/p/CGPlxjojIzU/?utm_medium=copy_link"><img src="2.jpeg" style="width:100%"></a>
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Marriage Photography</h3>
+      <p><b>"I really believe there are things nobody would see if i didn't photograph them."</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <a href="https://www.instagram.com/p/CPgHDhBByBY/?utm_medium=copy_link"><img src="kids.jpeg" style="width:100%"></a>
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Kids Photography</h3>
+      <p><b>"Don't shoot what it looks like. Shoot what it feels like."</b></p>    
+    </div>
+    
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <a href="https://www.instagram.com/p/CG2Y07gDmYS/?utm_medium=copy_link"><img src="3.jpeg" style="width:100%"></a>
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Business Photography</h3>
+      <p><b>"Because every picture has a story to tell."</b></p>    
+    </div>
+    
+  </div>
+
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">HASHTAG</h2>
+    <p class="w3-opacity"><i>Studio | Events</i></p>
+   
+    <p class="w3-justify">Enthusiastic team for making your dream events an inspiring on providing the finest art of photography services.
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Raghul</p>
+        <img src="raghul1.jpeg" class="w3-round w3-margin-bottom" alt="Name" style="width:60%">
+        <p>Photographer</p>
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">EVENT DATES</h2>
+      <p class="w3-opacity w3-center"><i>Remember to book your event!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">September <span class="w3-tag w3-green w3-margin-left">available</span></li>
+        <li class="w3-padding">October <span class="w3-tag w3-green w3-margin-left">available</span></li>
+        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <a href="https://www.instagram.com/p/COdCu7GBQcZ/"><img src="marriage.jpeg" alt="New York" style="width:100%" class="w3-hover-opacity"></a>
+          <div class="w3-container w3-white">
+            <p><b>Event Photography</b></p>
+            <p class="w3-opacity">Weddings , Birthdays, Award ceremonies, Engagements, Live concerts, Conferences,Family reunions, Newborn photography, Pre&Post-wedding, Events like cake smashes etc.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book  Event</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <a href="https://www.instagram.com/p/B6NmOtTlWZk/?utm_medium=copy_link"><img src="4.jpeg" alt="Paris" style="width:100%"or advertising purposes. class="w3-hover-opacity"></a>
+          <div class="w3-container w3-white">
+            <p><b>Fashion photography</b></p>
+            <p class="w3-opacity">Modern photography, fashion photography, Hair and makeup stylists photoshoot, Capturing models for a department catalogue, Capturing models in clothing and other fashion accessories for editorial .</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book  Event</button>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="w3-third w3-margin-bottom">
+          <a href="https://www.instagram.com/p/CGz7hfVDlAX/?utm_medium=copy_link"><img src="5.jpeg" alt="San Francisco" style="width:100%" class="w3-hover-opacity"></a>
+          <div class="w3-container w3-white">
+            <p><b>Business Photography</b></p>
+            <p class="w3-opacity">Includes Portrait photography, Product photography, Lifestyle photography, Candid photography,Commercial photography, Workshops , Meetings , Documentary photography etc.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book  Event</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <a href="https://www.instagram.com/p/CGz7hfVDlAX/?utm_medium=copy_link"><img src="kids.jpeg" alt="San Francisco" style="width:100%" class="w3-hover-opacity"></a>
+          <div class="w3-container w3-white">
+            <p><b>Fine Art Photography</b></p>
+            <p class="w3-opacity">Includes  Artistic Fine Art photography, Fine Art Portrait photography, Conceptual Fine Art photography,Creative Portrait photography etc.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book  Event</button>
+          </div>
+        </div>
+           <div class="w3-third w3-margin-bottom">
+          <a href="https://www.instagram.com/p/CGz7hfVDlAX/?utm_medium=copy_link"><img src="kids.jpeg" alt="San Francisco" style="width:100%" class="w3-hover-opacity"></a>
+          <div class="w3-container w3-white">
+            <p><b>Fine Art Photography</b></p>
+            <p class="w3-opacity">Includes  Artistic Fine Art photography, Fine Art Portrait photography, Conceptual Fine Art photography,Creative Portrait photography etc.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book  Event</button>
+          </div>
+        </div>
+           <div class="w3-third w3-margin-bottom">
+          <a href="https://www.instagram.com/p/CGz7hfVDlAX/?utm_medium=copy_link"><img src="kids.jpeg" alt="San Francisco" style="width:100%" class="w3-hover-opacity"></a>
+          <div class="w3-container w3-white">
+            <p><b>Fine Art Photography</b></p>
+            <p class="w3-opacity">Includes  Artistic Fine Art photography, Fine Art Portrait photography, Conceptual Fine Art photography,Creative Portrait photography etc.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book  Event</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-shopping-cart"></i> Booking</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-id-card"></i> Contact Number</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Contact Number">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">REQUEST <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Book your event!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Chennai<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 9176493905 , 8122832596<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: hashtagofficial@yahoo.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="connect.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="logo1.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <a href="https://instagram.com/hashtagofficial.in?utm_medium=copy_link"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <div> <h6>Camera cannot lie -Hashtag</h6></div>
+  
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
