@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion - Sagar Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <center><h2>Temperature Converter</h2></center>
+        <div class="input_box">
+            <center><label for="celsius">Celsius</label></center>
+            <input type="number" id="celsius" oninput="celToFar()" placeholder="value">
+        </div>
+        <div class="input_box">
+            <center><label for="fahrenheit">Fahrenheit</label></center>
+            <input type="number" id="fahrenheit" oninput="farToCel()" placeholder="value">
+        </div>
+       <div class="input_box">
+            <center><label for="kelvin">Kelvin</label></center>
+            <input type="number" id="kelvin" oninput="kelToCel()" placeholder="value">
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
